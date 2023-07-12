@@ -163,33 +163,6 @@ wget https://raw.githubusercontent.com/muslimsiber/autoscript/main/xray/ins-xray
 wget https://raw.githubusercontent.com/muslimsiber/autoscript/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 
-#Instal Squid
-echo -e "\e[33m-----------------------------------\033[0m"
-echo -e "$BGreen          Install Squid              $NC"
-echo -e "\e[33m-----------------------------------\033[0m"
-sleep 0.5
-clear
-wget https://raw.githubusercontent.com/muslimsiber/autoscript/main/addon/inssquid.sh && chmod +x inssquid.sh && ./inssquid.sh
-clear
-
-#Instal Menu Ovpn
-echo -e "\e[33m-----------------------------------\033[0m"
-echo -e "$BGreen          Install Menu Ovpn             $NC"
-echo -e "\e[33m-----------------------------------\033[0m"
-sleep 0.5
-clear
-wget https://raw.githubusercontent.com/muslimsiber/autoscript/main/addon/import.sh && chmod +x import.sh && ./import.sh
-clear
-
-#Instal Ovpn
-echo -e "\e[33m-----------------------------------\033[0m"
-echo -e "$BGreen          Install Ovpn           $NC"
-echo -e "\e[33m-----------------------------------\033[0m"
-sleep 0.5
-clear
-wget https://raw.githubusercontent.com/muslimsiber/autoscript/main/addon/ovpn.sh && chmod +x ovpn.sh && ./ovpn.sh
-clear
-
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
 
