@@ -107,6 +107,7 @@ echo -e "\e[1;36m 7 \e[0m: Status Service"
 echo -e "\e[1;36m 8 \e[0m: Clear RAM Cache"
 echo -e "\e[1;36m 9 \e[0m: Reboot VPS"
 echo -e "\e[1;36m 10 \e[0m: Menu Ovpn"
+echo -e "\e[1;36m 11 \e[0m: Check Neflix Geo"
 echo -e "\e[1;36m x \e[0m: Exit Script"
 echo -e   ""
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
@@ -129,6 +130,7 @@ case $opt in
 8) clear ; clearcache ;;
 9) clear ; reboot ;;
 10) clear ; sshovpnmenu ;;
+11) clear ; nf ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu ;;
 esac
